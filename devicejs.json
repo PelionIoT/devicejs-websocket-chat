@@ -1,0 +1,33 @@
+{
+    "name": "devjs-chat",
+    "version": "0.0.1",
+    "description": "DeviceJS Chat web app example",
+    "author": {
+        "name": "WigWag",
+        "email": "support@wigwag.com"
+    },
+    "website": {
+        "url": "wigwag.com"
+    },
+    "repository": {},
+    "private": true,
+    "dependencies": {
+        "socket.io-client": "^1.3.7",
+        "socket.io": "^1.3.7",
+        "errorhandler": "*",
+        "body-parser": "~1.0.0",
+        "morgan": "*",
+        "method-override": "~1.0.0",
+        "express": "4.13.3",
+        "cookie": "0.2.0",
+        "jsonwebtoken": "5.0.4",
+        "devicejs-rest-app":"git+ssh://github.com/WigWagCo/devicejs-rest-app.git"
+    },
+    "devDependencies": { },
+    "devicejs": {
+        "interfaces": [ ],
+        "resourceTypes": [ ],
+        "engines": { "devicejs": ">=0.0.1" },
+        "dependencies": { }
+    }
+}
