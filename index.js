@@ -1,4 +1,4 @@
-var devicejsRestApp = require('./devicejs-rest-app');
+var devicejsRestApp = require('devicejs-rest-app');
 
 
 
